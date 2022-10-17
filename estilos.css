@@ -131,7 +131,11 @@ body{
     position: relative;
 }
 
-.icone{
+.iconeoff{
+    display:none;
+}
+
+.iconeon{
     color:#32B72F;
     position: absolute;
     right:12.78px;
@@ -140,9 +144,7 @@ body{
     height:15.44px;
 
 }
-.iconeoff{
-    display:none;
-}
+
 
 .img1{
     margin-top:18px;
@@ -209,6 +211,10 @@ body{
 
 .fecharPedido{
     background-color: #32B72F;
-    text-align: center;
-    padding-top:26.5px;
+
+    
+}
+a{
+    text-decoration: none;
+    color:white;
 }
