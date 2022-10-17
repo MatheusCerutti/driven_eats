@@ -94,9 +94,10 @@ function fazerpedido() {
    let valorc = Number(((valorcomida.innerHTML).replace('R$ ','')).replace(',', '.'));
    let valorb = Number(((valordrink.innerHTML).replace('R$ ','')).replace(',', '.'));
    let valors = Number(((valorsobremesa.innerHTML).replace('R$ ','')).replace(',', '.'));
-   let total = valorc + valorb + valors;
+   let total = (valorc + valorb + valors).toFixed(2);
+   
 
-   let text = "Olá, gostaria de fazer o pedido:/n" + "- Prato:"+dishes+"<br> - Bebida:"+alcool+"<br> - Sobremesa:"+delicia+"<br> Total:"+total;
+   let text = "Olá, gostaria de fazer o pedido: \r\n- Prato: "+dishes+" \r\n- Bebida: "+alcool+" \r\n- Sobremesa: "+delicia+" \r\nTotal: R$ "+total;
    url = "https://wa.me/5527995321426?text="+encodeURIComponent(text);
-   console.log(url);
+   open(url);
 }
