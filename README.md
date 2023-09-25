@@ -2,16 +2,14 @@
 Um aplicativo de delivery de comida.
 
 ## Sobre
-É um projeto de front-end que mostra o visual do aplicativo e como seria sua funcionalidade ao selecionar e confirmar o pedido.
+É um site mobile do DrivenEats, um restaurante especial que entrega seu pedido em 6 minutos. O site permite de forma fácil a escolha do seu combo, enviando em seguida o pedido por WhatsApp diretamente para o restaurante.
 
 ## Linguagem Utilizada
 HTML, CSS e JS.
 
+OBS: Integração de link que envia uma mensagem via WhatsApp.
+
 ## Como Rodar
 
 1. Clone o repositório
-2. No seu terminal rode o comando:
-```bash
-npm start
-```
-3. Será aberto a página no seu navegador.
+2. Na pasta criada abra o arquivo index.html
