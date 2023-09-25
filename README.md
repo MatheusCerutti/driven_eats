@@ -4,7 +4,7 @@ Um aplicativo de delivery de comida.
 ## Sobre
 É um projeto de front-end que mostra o visual do aplicativo e como seria sua funcionalidade ao selecionar e confirmar o pedido.
 
-### Linguagem Utilizada
+## Linguagem Utilizada
 HTML, CSS e JS.
 
 ## Como Rodar
