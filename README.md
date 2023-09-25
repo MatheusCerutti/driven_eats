@@ -1,14 +1,17 @@
-Driven Eats
-
+# Driven Eats
 Um aplicativo de delivery de comida.
 
-Sobre
-
+## Sobre
 É um projeto de front-end que mostra o visual do aplicativo e como seria sua funcionalidade ao selecionar e confirmar o pedido.
 
-Linguagem utilizada
+### Linguagem Utilizada
 HTML, CSS e JS.
 
-Rodar o projeto
-1 - Clone o repositório.
-2 - No terminal do repositório rode o comando: npm start# driven_eats
+## Como Rodar
+
+1. Clone o repositório
+2. No seu terminal rode o comando:
+```bash
+npm start
+```
+3. Será aberto a página no seu navegador.
